@@ -45,3 +45,12 @@ th,td{
     padding: 8px;
     text-align: left;
 }
+button{
+    background-color: #333;
+    color: #fff;
+   display: block;
+   width: 100%;
+   padding: 8px;
+   border: none;
+   cursor: pointer;
+}
