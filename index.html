@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
+    <style>
+        
+    </style>
     
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!--Estenção para arquivo css-->
+   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />  <!--Estenção para arquivo css-->
 
     <script src="script.js"></script> <!--Estenção para arquivo JavaScript-->
+    <script src="adicionar.js"></script>
     
 </head>
 <body>
@@ -37,51 +41,49 @@
                 <span>R$ 25,00 </span>
                 <input type="number" value="1" min="1">
                 <button class="adicionar-produto">Adicionar</button>
-            </div>
+            </div><br>
 
             <div class="produto" data-name="Camisa G" data-price="30">
                 <span>Camisa G</span>
                 <span>R$ 30,00 </span>
                 <input type="number" value="1" min="1">
                 <button class="adicionar-produto">Adicionar</button>
-            </div>
+            </div><br>
 
             <div class="produto" data-name="Calça P " data-price="35">
                 <span>Calça P</span>
                 <span>R$ 35,00 </span>
                 <input type="number" value="1" min="1">
                 <button class="adicionar-produto">Adicionar</button>
-            </div>
+            </div><br>
 
             <div class="produto" data-name="Calça G" data-price="45">
                 <span>Calça G</span>
                 <span>R$ 45,00 </span>
                 <input type="number" value="1" min="1">
                 <button class="adicionar-produto">Adicionar</button>
-            </div>
+            </div><br>
 
         </section>
 
             <!-- Criar carrinho de compras -->
 
             <section class="carrinho">
-
                 <h2>Carrinho</h2>
-
                 <table>
-                    <thead>
-                        <tr>
-                            <th>Produto</th>
-                            <th>Preço Unitário</th>
-                            <th>Quantidade</th>
-                            <th>Subtotal</th>
-                            <th>Ações</th>
-                        </tr>
-                    </thead>
-                    <tbody class="itens-carrinho"></tbody>
+                <thead>
+                    <tr id="lista-pedidos">
+                    <th>Produto</th>
+                    <th>Preço Unitário</th>
+                    <th>Quantidade</th>
+                    <th>Subtotal</th>
+                    <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody class="itens-carrinho"></tbody>
                 </table>
                 <div class="total">
-                    <span>Total</span>
+                    <span>Total:</span>
                     <span>Total</span>
                 </div>
 
